@@ -2,7 +2,8 @@ import React from 'react'
 import '../style/SASS/home.scss'
 import Image1 from '../style/images-logos/salad.webp'
 import Arrow from '../style/images-logos/arrow.png'
-//import Image2 from '../style/images-logos/grille.png'
+import Image2 from '../style/images-logos/image-02.jpeg'
+import Image3 from '../style/images-logos/carottes.jpeg'
 
 export default function Home() {
 
@@ -47,11 +48,16 @@ export default function Home() {
                     </div>
 
                     <div className="slide2-anim slide2-anim-translate ">
-                        <p className="main-text-paragraph1">
-                            Pendant le confinement, Primeur d'Aqui lance les Paniers d'Aqui. Des Paniers de producteurs labellisés en agriculture biologique que nous vous livrons gratuitement, à domicile, sur les communes de Bages, Montescot, Villeneuve-de-la-Raho, Elne, Latour-Bas-Elne, Saint-Cyprien, Canet, et Perpignan Technosud.
-                        </p>
+                        <div className="text-slide2">
+                            <p className="main-text-paragraph1">
+                                Pendant le confinement, Primeur d'Aqui lance les Paniers d'Aqui. Des Paniers de producteurs labellisés en agriculture biologique que nous vous livrons gratuitement, à domicile, sur les communes de Bages, Montescot, Villeneuve-de-la-Raho, Elne, Latour-Bas-Elne, Saint-Cyprien, Canet, et Perpignan Technosud.
+                            </p>
 
-                        <p className="main-text-paragraph2">Les résidents des autres communes peuvent acheter en ligne leur Panier et les récupérer dans notre point relais du Catalogne Café, 56 bvd Goerges Clémenceau à Perpignan, le vendredi de 9h à 14h.</p>
+                            <p className="main-text-paragraph2">Les résidents des autres communes peuvent acheter en ligne leur Panier et les récupérer dans notre point relais du Catalogne Café, 56 bvd Goerges Clémenceau à Perpignan, le vendredi de 9h à 14h.</p>
+
+                        </div>
+
+
                     </div>
 
                 </div>
@@ -59,43 +65,36 @@ export default function Home() {
             </div>
 
 
-            <div className="main-container2">
 
-                <h2 className="main2-text-title">Fermeture de la page de commandes de Paniers</h2>
 
-                <p className="paragraphe-container2">
-                    Comme vous le savez peut-être déjà, PRIMEUR D'AQUI est une petite graine dont la germination a commencé fin 2019 avec pour cœur d'activité de servir les restaurants.
+            <div className="main-container3">
+                <img className="home-img2" src={Image2} alt="" />
+                <div className="text-step1">
+                    <div className="number1-faded">01</div>
+                    <h3 className="title-overlap title-overlap1">Publication du listing</h3>
+                    <p className="step-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                        optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+                </div>
 
-                    Passionnés, pleins d'espoir, d'optimisme, et surtout convaincus, malgré l'entrée dans le premier confinement, nous avons fait le pari un peu fou de maintenir notre lancement! C'est ainsi que nous avons commencé à servir les restaurateurs en juillet 2020 !
+                <img className="home-img3" src={Image3} alt="" />
+                <div className="text-step2"> 
+                <div className="number2-faded">02</div>
+                <h3 className="title-overlap title-overlap1">Commande au producteur</h3>
+                <p className="step-paragraph step-paragraph2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                        optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+                
+                
+                
+                </div>
+                    
+                
 
-                    L'activité de vous proposer des paniers en livraison directe à domicile est née à l'entrée dans le second confinement au mois d'octobre suivant.Nous sommes infiniment reconnaissants pour chaque panier livré qui sont autant de rencontres et de liens tissés.
-
-                    Cependant ça y est, le temps de la reprise est venu pour le monde de la restauration.
-
-                    Comme vous le savez, les restaurant rouvrent leurs terrasses aujourd'hui mercredi 19 mai, et cela fait quelques semaines que nous participons au bouillonnement qui précède ces retrouvailles.
-
-                    Malheureusement, nous réalisons que notre activité, qui n'a même pas un an, n'est pas encore assez développée pour continuer la livraison de paniers à domicile et en même temps approvisionner vos tables préférées.
-
-                    C'est donc à regret que nous vous annonçons la fermeture de notre page de réservation de paniers le vendredi 28 mai prochain.
-
-                    Un GRAND merci à toutes celles et ceux qui nous ont passé commande.
-
-                    Au revoir donc ?... Oui, mais pas que !
-
-                    Ces circonvolutions inattendues dans notre aventure naissante ont fait naître un nouvel objectif et Primeur d'Aqui a de nouveaux projets dans ses paniers !
-
-                    Nous espérons vous retrouver dès cet automne, pour vous proposer de nouveau des fruits et légumes bios, locaux, toujours de saison et préparés avec cœur!Ce n'est donc qu'un aurevoir...
-
-                    En attendant, restez connectés, et retrouvez nous également tous les dimanche matins, au marché de Corneilla-Del-Vercol à partir du mois de Juin!
-
-                    A bientôt !
-
-                    Adrien et Éléonore.
-
-                </p>
 
             </div>
-
 
         </div>
     )

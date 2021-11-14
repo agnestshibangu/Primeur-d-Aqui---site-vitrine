@@ -17,8 +17,24 @@ body {
     width: 100%;
     height: 500px;
     background-color: aqua;
+    object-fit: cover;   
+}
+
+.home-img2, .home-img3 {
+    width: 273px;
+    height: 396px;
     object-fit: cover;
-    
+    position: absolute;
+}
+
+.home-img2 {
+    top: 878px;
+    margin-left: 5%;
+}
+
+.home-img3 {
+    margin-left: 25%;
+    margin-top: 516px;
 }
 
 
@@ -58,12 +74,18 @@ body {
 
 .main-text-paragraph1, .main-text-paragraph2 {
     font-family: 'Lora', serif;
-    font-size: 20px;
-    width: 80%;
+    font-size: 22px;
+    width: 86%;
+   
 }
 
 .main-text-paragraph2 {
     margin-top: 20px;
+}
+
+.text-slide2 {
+    margin-left: 10%;
+    margin-top: 60px;
 }
  
 
@@ -96,7 +118,7 @@ body {
 
 .slide1-anim {
     width: 40%;
-    height: 400px;
+    height: 450px;
     background-color: rgb(255, 226, 163);
     position: absolute;
     right: 0;
@@ -127,12 +149,12 @@ body {
 
 .slide2-anim {
     width: 60%;
-    height: 400px;
+    height: 450px;
     background-color: rgb(138, 172, 72);
     position: absolute;
     left: 0;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     flex-direction: column;
     animation: translate-slide2 ease 2s; 
@@ -157,7 +179,6 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    margin-top: 450px;
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
@@ -177,3 +198,62 @@ body {
     font-size: 20px;
     margin-top: 20px;
 }
+
+
+.main-container3 {
+    display: flex;
+    margin-top: 340px;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.number1-faded, .number2-faded {
+    font-family: 'Lora', serif;
+    font-size: 110px;
+    opacity: 0.150;
+    color: #0a310a;
+    width: fit-content;
+    /* height: fit-content; */
+}
+
+
+
+.text-step1 {
+    height: fit-content;
+    width: fit-content;
+    margin-left: 28%;
+    margin-top: 135px;
+}
+
+
+
+.title-overlap {
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    
+    height: fit-content;
+    margin-top: -74px;
+    margin-left: 4%;
+    width: 35%;
+}
+
+.step-paragraph {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    width: 44%;
+    line-height: 1.6em;
+    margin-top: 20px;
+
+}
+
+.step-paragraph2  {
+    width: 48%
+}
+
+.text-step2 {
+    height: fit-content;
+    width: fit-content;
+    margin-left: 48%;
+    margin-top: 96px;
+}
+
