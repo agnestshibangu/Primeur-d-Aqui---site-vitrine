@@ -7,7 +7,7 @@ import Apropos from './pages/Apropos'
 import Faq from './pages/Faq'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
-// import Footer from './components/Footer'
+ import Footer from './components/Footer'
 import './style/SASS/index.scss'
 
 
@@ -23,7 +23,7 @@ ReactDOM.render(
       <Route path="/faq" element={<Faq />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
-    {/* <Footer /> */}
+    <Footer /> 
   </Router>,
   document.getElementById('root')
 )

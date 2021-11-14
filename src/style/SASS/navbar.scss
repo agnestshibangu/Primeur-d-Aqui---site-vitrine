@@ -8,7 +8,18 @@
   //  background-color: rgba(255, 255, 255, 0.507);
     position: absolute;
     top: 0;
-  
+    animation: navbar 2s;
+}
+
+@keyframes navbar {
+    0% {
+       opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
 }
 
 .logo-container {
