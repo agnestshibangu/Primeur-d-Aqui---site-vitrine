@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../style/SASS/navbar.scss'
+import '../style/SASS/index.scss'
 // import Logo from '../style/images-logos/pdaqui-logo.png'
 
 export default function Navbar() {

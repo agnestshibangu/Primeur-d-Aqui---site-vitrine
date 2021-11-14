@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
 
 $title-font-size: 60px;
 
@@ -9,14 +9,14 @@ $title-font-size: 60px;
     
 }
 
-body {
-    font-family: 'Lora', serif;
+.main {
+    height: fit-content;
+    width: 100%;
 }
 
 .home-img1 {
     width: 100%;
     height: 500px;
-    background-color: aqua;
     object-fit: cover;   
 }
 
@@ -48,8 +48,7 @@ body {
     position: absolute;
     top: 160px;
     left: 50px;
-    font-family: 'Lora', serif;
-    font-size: 60px;
+    font-size: 3rem;
     width: 45%;
     text-align: center;
 }
@@ -66,6 +65,8 @@ body {
     height: fit-content;
     background-color: rgb(255, 255, 255);
     margin-top: -4px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -73,15 +74,24 @@ body {
     text-align: center;
     font-size: $title-font-size;
     width: 80%;
-    font-family: 'Lora', serif;
+  
 }
 
 
 .main-text-paragraph1, .main-text-paragraph2 {
-    font-family: 'Lora', serif;
+  
     font-size: 22px;
     width: 86%;
    
+}
+
+// .main-container-text {
+//     display: flex;
+// }
+
+.main-container1 {
+    display: flex;
+    height: fit-content;
 }
 
 .main-text-paragraph2 {
@@ -91,6 +101,12 @@ body {
 .text-slide2 {
     margin-left: 10%;
     margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.paragraphe-slide2 {
+    font-size: 1.5rem;
+    width: 90%
 }
  
 
@@ -123,9 +139,9 @@ body {
 
 .slide1-anim {
     width: 40%;
-    height: 450px;
+  
     background-color: rgb(255, 226, 163);
-    position: absolute;
+    
     right: 0;
     display: flex;
     justify-content: center;
@@ -154,10 +170,10 @@ body {
 
 .slide2-anim {
     width: 60%;
-    height: 450px;
+    height: fit-content;
     background-color: rgb(138, 172, 72);
-    position: absolute;
-    left: 0;
+  
+   
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -193,12 +209,10 @@ body {
 }
 
 .main2-text-title {
-    font-family: 'Lora', serif;
     font-size: $title-font-size;
 }
 
 .paragraphe-container2 {
-    font-family: 'Lora', serif;
     font-size: 20px;
     margin-top: 20px;
 }
@@ -207,12 +221,11 @@ body {
 .main-container3 {
     display: flex;
     margin-top: 340px;
-    height: 100vh;
+    height: 134vh;
     flex-direction: column;
 }
 
 .number1-faded, .number2-faded, .number3-faded {
-    font-family: 'Lora', serif;
     font-size: 110px;
     opacity: 0.150;
     color: #0a310a;
@@ -232,9 +245,7 @@ body {
 
 
 .title-overlap {
-    font-family: 'Lora', serif;
     font-size: 28px;
-    
     height: fit-content;
     margin-top: -74px;
     margin-left: 4%;
@@ -242,7 +253,6 @@ body {
 }
 
 .step-paragraph {
-    font-family: 'Lora', serif;
     font-size: 18px;
     width: 44%;
     line-height: 1.6em;

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/SASS/home.scss'
+import '../style/SASS/index.scss'
 import Image1 from '../style/images-logos/salad.webp'
 import Arrow from '../style/images-logos/arrow.png'
 import Image2 from '../style/images-logos/image-02.jpeg'
@@ -34,14 +35,14 @@ export default function Home() {
 
 
     return (
-        <div>
+        <div className="main">
             <img className="home-img1" src={Image1} alt="" />
             <h1 className="text-img1">Paniers de fruits et légumes bios et locaux en livraison gratuite</h1>
-            <img className="arrow-img" src={Arrow} alt="" />
+            {/* <img className="arrow-img" src={Arrow} alt="" /> */}
 
             <div className="main-container">
 
-                <div className="main-container-text">
+                <div className="main-container1">
 
 
                     <div className="slide1-anim slide1-anim-translate ">
@@ -50,20 +51,13 @@ export default function Home() {
 
                     <div className="slide2-anim slide2-anim-translate ">
                         <div className="text-slide2">
-                            <p className="main-text-paragraph1">
-                                Pendant le confinement, Primeur d'Aqui lance les Paniers d'Aqui. Des Paniers de producteurs labellisés en agriculture biologique que nous vous livrons gratuitement, à domicile, sur les communes de Bages, Montescot, Villeneuve-de-la-Raho, Elne, Latour-Bas-Elne, Saint-Cyprien, Canet, et Perpignan Technosud.
-                            </p>
-
-                            <p className="main-text-paragraph2">Les résidents des autres communes peuvent acheter en ligne leur Panier et les récupérer dans notre point relais du Catalogne Café, 56 bvd Goerges Clémenceau à Perpignan, le vendredi de 9h à 14h.</p>
-
+                                <p className="paragraphe-slide2">Pendant le confinement, Primeur d'Aqui lance les Paniers d'Aqui. Des Paniers de producteurs labellisés en agriculture biologique que nous vous livrons gratuitement, à domicile, sur les communes de Bages, Montescot, Villeneuve-de-la-Raho, Elne, Latour-Bas-Elne, Saint-Cyprien, Canet, et Perpignan Technosud.
+                                Les résidents des autres communes peuvent acheter en ligne leur Panier et les récupérer dans notre point relais du Catalogne Café, 56 bvd Goerges Clémenceau à Perpignan, le vendredi de 9h à 14h. </p>
                         </div>
-
-
                     </div>
-
                 </div>
 
-            </div>
+           
 
 
 
@@ -97,12 +91,9 @@ export default function Home() {
                         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                         numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                         optio, eaque rerum! Provident similique accusantium nemo autem.</p>
-
-
-
                 </div>
                 
-
+            </div>
 
             </div>
 
