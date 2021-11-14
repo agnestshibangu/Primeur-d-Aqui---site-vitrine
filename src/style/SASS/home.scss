@@ -20,7 +20,7 @@ body {
     object-fit: cover;   
 }
 
-.home-img2, .home-img3 {
+.home-img2, .home-img3, .home-img4 {
     width: 273px;
     height: 396px;
     object-fit: cover;
@@ -35,6 +35,11 @@ body {
 .home-img3 {
     margin-left: 25%;
     margin-top: 516px;
+}
+
+.home-img4 {
+    margin-left: 45%;
+    margin-top: 998px;
 }
 
 
@@ -154,7 +159,6 @@ body {
     position: absolute;
     left: 0;
     display: flex;
-    
     align-items: center;
     flex-direction: column;
     animation: translate-slide2 ease 2s; 
@@ -207,7 +211,7 @@ body {
     flex-direction: column;
 }
 
-.number1-faded, .number2-faded {
+.number1-faded, .number2-faded, .number3-faded {
     font-family: 'Lora', serif;
     font-size: 110px;
     opacity: 0.150;
@@ -250,10 +254,19 @@ body {
     width: 48%
 }
 
+.step-paragraph3 {
+    width: 84%
+}
+
 .text-step2 {
     height: fit-content;
     width: fit-content;
     margin-left: 48%;
     margin-top: 96px;
+}
+
+.text-step3 {
+    margin-left: 67%;
+    margin-top: 103px;
 }
 

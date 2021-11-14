@@ -4,6 +4,7 @@ import Image1 from '../style/images-logos/salad.webp'
 import Arrow from '../style/images-logos/arrow.png'
 import Image2 from '../style/images-logos/image-02.jpeg'
 import Image3 from '../style/images-logos/carottes.jpeg'
+import Image4 from '../style/images-logos/planche.jpeg'
 
 export default function Home() {
 
@@ -86,11 +87,20 @@ export default function Home() {
                         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                         numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                         optio, eaque rerum! Provident similique accusantium nemo autem.</p>
-                
-                
-                
                 </div>
-                    
+
+                <img className="home-img4" src={Image4} alt=""/>
+                <div className="text-step3">    
+                <div className="number3-faded">03</div>
+                <h3 className="title-overlap title-overlap3">Livraison gratuite</h3>
+                <p className="step-paragraph step-paragraph3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                        optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+
+
+
+                </div>
                 
 
 
