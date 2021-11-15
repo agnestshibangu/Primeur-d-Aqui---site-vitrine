@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/SASS/home.scss'
 import '../style/SASS/index.scss'
-import Image1 from '../style/images-logos/salad.webp'
+import Image1 from '../style/images-logos/salad-cut.png'
 import Arrow from '../style/images-logos/arrow.png'
 import Image2 from '../style/images-logos/image-02.jpeg'
 import Image3 from '../style/images-logos/carottes.jpeg'
