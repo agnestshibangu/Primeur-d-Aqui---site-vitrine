@@ -37,13 +37,18 @@ export default function Home() {
     return (
         <div className="main">
             <img className="home-img1" src={Image1} alt="" />
-            <h1 className="text-img1">Paniers de fruits et légumes bios et locaux en livraison gratuite</h1>
-            {/* <img className="arrow-img" src={Arrow} alt="" /> */}
+
+            <div className="container-text-img1">
+                <h1 className="text-img1">Paniers de fruits et légumes <span className="accent">bios</span> et <span className="accent">locaux</span> </h1>
+                <h2 className="paragraph-img1">En livraison gratuite</h2>
+                <button className="btn-discover">découvrir</button>
+            </div>
+          
+          
 
             <div className="main-container">
 
                 <div className="main-container1">
-
 
                     <div className="slide1-anim slide1-anim-translate ">
                         <h1 className="main-text-title">Primeur d'Aqui lance les Paniers d'Aqui</h1>
@@ -63,35 +68,48 @@ export default function Home() {
 
 
             <div className="main-container3">
-                <img className="home-img2" src={Image2} alt="" />
-                <div className="text-step1">
-                    <div className="number1-faded">01</div>
-                    <h3 className="title-overlap title-overlap1">Publication du listing</h3>
-                    <p className="step-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                        optio, eaque rerum! Provident similique accusantium nemo autem.</p>
-                </div>
 
-                <img className="home-img3" src={Image3} alt="" />
-                <div className="text-step2"> 
-                <div className="number2-faded">02</div>
-                <h3 className="title-overlap title-overlap1">Commande au producteur</h3>
-                <p className="step-paragraph step-paragraph2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                        optio, eaque rerum! Provident similique accusantium nemo autem.</p>
-                </div>
+                    <div className="section1 section">
+                        <img className="home-img2" src={Image2} alt="" />
+                            <div className="text-step1">
+                                <div className="number1-faded">01</div>
+                                <h3 className="title-overlap title-overlap1">Publication du listing</h3>
+                                <p className="step-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                    optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+                            </div>
+                    </div>
+                        
 
-                <img className="home-img4" src={Image4} alt=""/>
-                <div className="text-step3">    
-                <div className="number3-faded">03</div>
-                <h3 className="title-overlap title-overlap3">Livraison gratuite</h3>
-                <p className="step-paragraph step-paragraph3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                        optio, eaque rerum! Provident similique accusantium nemo autem.</p>
-                </div>
+            
+                    <div className="section2 section">
+                        <img className="home-img3" src={Image3} alt="" />
+                            <div className="text-step2"> 
+                            <div className="number2-faded">02</div>
+                            <h3 className="title-overlap title-overlap1">Commande au producteur</h3>
+                            <p className="step-paragraph step-paragraph2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                    optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+                            </div>
+                    </div>
+                       
+
+
+                    <div className="section3 section">
+                        <img className="home-img4" src={Image4} alt=""/>
+                            <div className="text-step3">    
+                            <div className="number3-faded">03</div>
+                            <h3 className="title-overlap title-overlap3">Livraison gratuite</h3>
+                            <p className="step-paragraph step-paragraph3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                    optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+                            </div>
+                    </div>
+ 
+                      
                 
             </div>
 
