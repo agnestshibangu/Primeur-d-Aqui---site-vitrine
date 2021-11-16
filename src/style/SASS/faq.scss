@@ -1,0 +1,21 @@
+.main-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-main-title {
+    z-index: 10;
+}
+.faq-faded {
+    z-index: 9;
+    font-size: 7rem;
+    opacity: 0.1;
+    margin-top: -85px;
+    margin-right: 296px;
+}
+
+.qa-container {
+    display: flex;
+}

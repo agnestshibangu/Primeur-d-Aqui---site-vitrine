@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbarsecond from '../components/Navbarsecond'
 
 export default function Contact() {
     return (
         <div>
-            je suis la page contact
+            <Navbarsecond />
         </div>
     )
 }

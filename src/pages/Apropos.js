@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbarsecond from '../components/Navbarsecond'
 
 export default function Apropos() {
     return (
         <div>
-            about us    
+            <Navbarsecond />  
         </div>
     )
 }
