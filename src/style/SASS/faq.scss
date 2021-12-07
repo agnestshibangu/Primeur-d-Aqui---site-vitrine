@@ -17,5 +17,30 @@
 }
 
 .qa-container {
+    width: 80%;
     display: flex;
+    flex-direction: column;
+}
+
+.question-element {
+    margin-bottom: 20px;
+}
+
+.question-element-header {
+    display: flex;
+}
+
+.answer {
+    margin-top: 10px;
+}
+
+.btn-plus-minus {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
