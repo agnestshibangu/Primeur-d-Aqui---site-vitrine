@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import '../style/SASS/faq.scss'
 import Navbarsecond from '../components/Navbarsecond'
 import data from '../components/FAQdata'

@@ -14,7 +14,12 @@ export default function Contact() {
 
             <div className="container-contact">
 
-                <h1>contactez primeur d'aqui</h1>
+                {/* <h1>contactez primeur d'aqui</h1> */}
+
+                {/* FAQ title --start */}
+                <h1 className="faq-main-title">contactez primeur d'aqui</h1>
+                <p className="faq-faded">contact</p>
+                {/* FAQ title --end */}
 
                 <div className="two-containers-aligned">
 
@@ -49,9 +54,9 @@ export default function Contact() {
 
                         <div className="box-aligned-inputs">
 
-                            <input className="form-input-aligned"  type="text" value="nom &amp; prénom" placeholder="nom et prénom" required></input>
+                            <input className="form-input-aligned" type="text" value="nom &amp; prénom" placeholder="nom et prénom" required></input>
 
-                            <input className="form-input-aligned"  type="text" value="email" placeholder="email" required></input>
+                            <input className="form-input-aligned" type="text" value="email" placeholder="email" required></input>
 
                         </div>
 
@@ -61,7 +66,7 @@ export default function Contact() {
 
                         <input className="form-input" type="text" value="phonenumber" placeholder="numéro de téléphone" required></input>
 
-                        <textarea className="form-input form-input-textarea" value="message" placeholder="Message" type="textarea"  cols="40" rows="5"></textarea>
+                        <textarea className="form-input form-input-textarea" value="message" placeholder="Message" type="textarea" cols="40" rows="5"></textarea>
 
                         <button className="contact-form-submit-button">submit</button>
 

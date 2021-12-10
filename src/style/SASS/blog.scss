@@ -1,0 +1,172 @@
+.navbar-blog {
+    width: 100%;
+    height: 15vh;
+    background-color: #799085;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-blog-searchbar-box {
+    display: flex;
+    width: 130px;
+    height: 20px;
+}
+
+.navbar-blog-searchbar {
+    width: 100px;
+    height: fit-content;
+}
+
+.navbar-blog-link {
+    cursor: pointer;
+}
+
+.navbar-blog-searchbar-button {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #192d1e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-blog-list {
+    width: 100%;
+    height: 20vh;
+    background-color: #192d1e ;   
+    animation: blogList ease 0.2s;
+}
+
+@keyframes blogList {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.display-none {
+    display: none;
+}
+
+.article-title {
+    cursor: pointer;
+    &:hover {
+        color:  grey;
+    }
+}
+
+
+.top-article {
+    margin-top: 5vh;
+    width: 100%; 
+    height: 45vh;
+   // background-color: rgb(215, 255, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-article-single {
+    width: 40%;
+    height: 40vh;
+    background-color: rgb(215, 255, 182);
+}
+
+.bar-top-article {
+    height: 1px;
+    width: 80%;
+    background-color: grey;
+    margin: 5vh auto;
+}
+
+.dashboard {
+    display: flex;
+    margin-top: 5vh;
+}
+
+.blog-container {
+    width: 65%;
+    height: fit-content;
+   // background-color: aqua;
+   //  margin-left: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article {
+   // background-color: yellowgreen;
+    width: 90%;
+    height: fit-content;
+    margin-top: 50px;
+    &:first-of-type {
+        margin-top: 0;
+    }
+
+}
+
+.article-img {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(215, 255, 182);
+    object-fit: cover;
+}
+
+.article-text {
+    margin: 10px;
+}
+
+.article-short-text, .date {
+    margin-top: 10px;
+}
+
+.button-read-more {
+    margin: 10px 0;
+    left: 50%;
+}
+
+.article-bar {
+    width: 80%;
+    height: 1px;
+    background-color: grey;
+    margin: 50px auto;
+    
+}
+
+.instagram-container {
+    width: 30%;
+    height: 50vh;
+    background-color: grey;
+    margin-left: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.instagram-arrow-down {
+    font-size: 3rem;
+    margin-top: -18px;
+}

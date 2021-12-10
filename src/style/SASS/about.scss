@@ -1,0 +1,43 @@
+
+.about-main-title {
+    z-index: 10;
+}
+
+.about-faded {
+    z-index: 9;
+    font-size: 7rem;
+    opacity: 0.1;
+    margin-right: 296px;
+    position: absolute;
+}
+
+.title-container {
+    width: 100%;
+    margin-top: -15px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    width: 100%;
+    height: fit-content;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-img {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.about-text {
+    width: 50%;
+    margin-top: 3vh;
+    text-align: center;
+}
