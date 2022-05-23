@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../style/SASS/faq.scss'
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
+
 const Question = ({ question, answer }) => {
   const [showInfo, setShowInfo] = useState(false);
   return (

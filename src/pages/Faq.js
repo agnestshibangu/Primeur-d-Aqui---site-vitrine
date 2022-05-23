@@ -15,7 +15,7 @@ export default function Faq() {
             <div className="main-container">
 
                 {/* FAQ title --start */}
-                <h1 className="faq-main-title">La FAQ de Primeur d'Aqui</h1>
+                <h1 className="faq-main-title">La FAQ de lorem ipsum</h1>
                 <p className="faq-faded">FAQ</p>
                 {/* FAQ title --end */}
 

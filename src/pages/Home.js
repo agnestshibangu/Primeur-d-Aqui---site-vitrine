@@ -50,12 +50,12 @@ export default function Home() {
                 <div className="main-container1">
 
                     <div className="slide1-anim slide1-anim-translate ">
-                        <h1 className="main-text-title">Primeur d'Aqui lance les Paniers d'Aqui</h1>
+                        <h1 className="main-text-title"> Lorem ipsum</h1>
                     </div>
 
                     <div className="slide2-anim slide2-anim-translate ">
                         <div className="text-slide2">
-                                <p className="paragraphe-slide2">Pendant le confinement, Primeur d'Aqui lance les Paniers d'Aqui. Des Paniers de producteurs labellisés en agriculture biologique que nous vous livrons gratuitement, à domicile, sur les communes de Bages, Montescot, Villeneuve-de-la-Raho, Elne, Latour-Bas-Elne, Saint-Cyprien, Canet, et Perpignan Technosud.
+                                <p className="paragraphe-slide2">Des Paniers de producteurs labellisés en agriculture biologique que nous vous livrons gratuitement, à domicile, sur les communes de Bages, Montescot, Villeneuve-de-la-Raho, Elne, Latour-Bas-Elne, Saint-Cyprien, Canet, et Perpignan Technosud.
                                 Les résidents des autres communes peuvent acheter en ligne leur Panier et les récupérer dans notre point relais du Catalogne Café, 56 bvd Goerges Clémenceau à Perpignan, le vendredi de 9h à 14h. </p>
                         </div>
                     </div>

@@ -17,7 +17,7 @@ export default function Contact() {
                 {/* <h1>contactez primeur d'aqui</h1> */}
 
                 {/* FAQ title --start */}
-                <h1 className="faq-main-title">contactez primeur d'aqui</h1>
+                <h1 className="faq-main-title">contactez lorem ipsum</h1>
                 <p className="faq-faded">contact</p>
                 {/* FAQ title --end */}
 
