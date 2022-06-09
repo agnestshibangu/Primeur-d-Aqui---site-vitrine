@@ -101,3 +101,17 @@
     transition: ease 1s;
 }
 
+@media (max-width: 650px) {
+    .links-footer-container {
+        flex-direction: column;
+    }
+
+    .navbar-link-footer {
+        margin-top: 15px;
+
+    }
+
+    .links-footer-container {
+        height: fit-content;  
+    }
+}

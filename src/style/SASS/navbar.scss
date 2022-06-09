@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
+.smartphone-navbar-dash {
+    width: 20px;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: white;
+}
+
+
+.smartphone-navbar-dash:last-child {
+    margin-bottom: 0;
+}
+
+.smartphone-navbar {
+    margin-top: 50px;
+    border: 2px solid white; 
+    padding: 10px;
+}
+
 
 .navbar-container {
     width: 100%;
@@ -8,6 +26,7 @@
   //  background-color: rgba(255, 255, 255, 0.507);
     position: absolute;
     top: 0;
+    z-index: 999;
     animation: navbar 2s;
 }
 
@@ -85,4 +104,40 @@
     height: 50px;
     width: 50px;
     background-color: orangered;
+}
+
+@media (max-width: 900px) {
+    .navbar-link {
+        font-size: 15px;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+ .navbar-link {
+     display: none;
+ }
+
+ .smartphone-navbar {
+     display: block;
+ }
+}
+
+@media (min-width: 768px) {
+    .smartphone-navbar {
+       display: none;
+   }
+   }
+   
+@media (max-width: 640px) {
+    .main-container1 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+    .links-footer-container {
+        flex-direction: column;
+    }
 }

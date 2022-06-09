@@ -8,41 +8,37 @@ import Image4 from '../style/images-logos/planche.jpeg'
 
 export default function Home() {
 
-    // slides animation - start //
-    // window.addEventListener('scroll', () => {
-    //     const slide1 = document.querySelector('.slide1-anim');
-    //     const slide2 =  document.querySelector('.slide2-anim');
-
-    //     if(window.pageYOffset > 10) {
-    //         slide1.classList.add('slide1-anim-translate');
-    //         slide2.classList.add('slide2-anim-translate');
-
-    //     } 
-    //     // else if(this.window.pageYOffset < 0.5) { 
-
-
-    //     // }
-
-
-
-    // })
-
-
-    // slides animation - end //
-
-
-
-
     return (
         <div className="main">
             <img className="home-img1" src={Image1} alt="" />
 
             <div className="container-text-img1">
-                <h1 className="text-img1">Paniers de fruits et légumes <span className="accent">bios</span> et <span className="accent">locaux</span> </h1>
+                {/* <h1 className="text-img1">Paniers de fruits et légumes <span className="accent">bios</span> et <span className="accent">locaux</span> </h1>
                 <h2 className="paragraph-img1">En livraison gratuite</h2>
-                <button className="btn-discover">découvrir</button>
+                <button className="btn-discover">découvrir</button> */}
             </div>
           
+
+        <div className="top-container">
+            <div className='first-category category'>
+          
+
+
+            </div>
+
+            <div className='second-category category'>
+            
+            </div>
+            
+            <div className='third-category category'>
+         
+
+
+            </div>
+
+
+
+        </div>
           
 
             <div className="main-container">

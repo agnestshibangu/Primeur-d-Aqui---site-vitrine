@@ -14,14 +14,20 @@ export default function Navbar() {
             <div className="link-container">
                 <Link className="navbar-link" to="/"><div className="animated-bar" />accueil
                 </Link>
-                <Link className="navbar-link" to="/blog"><div className="animated-bar" />blog
-                </Link>
+                {/* <Link className="navbar-link" to="/blog"><div className="animated-bar" />blog
+                </Link> */}
                 <Link className="navbar-link" to="/apropos"><div className="animated-bar" />a propos
                 </Link>
                 <Link className="navbar-link" to="/faq"><div className="animated-bar" />faq
                 </Link>
                 <Link className="navbar-link" to="/contact"><div className="animated-bar" />contact
                 </Link>
+
+                <div className="smartphone-navbar">
+                    <div className="smartphone-navbar-dash"/>
+                    <div className="smartphone-navbar-dash"/>
+                    <div className="smartphone-navbar-dash"/>
+                </div> 
             </div>
         </div>
 
