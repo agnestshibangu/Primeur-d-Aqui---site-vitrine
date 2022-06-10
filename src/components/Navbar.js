@@ -27,6 +27,7 @@ export default function Navbar() {
                     <div className="smartphone-navbar-dash"/>
                     <div className="smartphone-navbar-dash"/>
                     <div className="smartphone-navbar-dash"/>
+
                 </div> 
             </div>
         </div>
